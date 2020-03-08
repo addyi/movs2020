@@ -1,0 +1,25 @@
+# Grading
+
+- Presentation (40%)
+  - Content
+  - Structure
+  - Style
+  - Slides
+  - Keeping the time limit
+  - Appearance/Performance
+  - etc.
+- Project (55%)
+  - System architecture
+  - Software architecture
+  - Used technologies
+  - Software project structure
+  - Code style
+  - UX/UI
+  - Documentation (Readme)
+  - Testing
+  - How big/small is the hacky factor
+- Other (5%)
+  - Adhere to deadlines
+  - Completeness
+  - Slides as PDF
+  - Git Repo (link)
