@@ -57,7 +57,7 @@
 **Your research:**
 
 #### What is GitFlow?
-- GitFlow ist eine Workflow nachdem mit Git in Teams gearbeitet werden kann
+- GitFlow ist eine Workflow nachdem mit Git in Teams gearbeitet werden kann ([Beispiel](https://raw.githubusercontent.com/Voronenko/gitflow-release/master/images/git-workflow-release-cycle-4maintenance.png))
 - Es gibt (meist) 5 Arten von branches
   - Master: hier liegt ein immer lauffähige Version
   - Develop: hier wird vom Master gepulled und alle features reingepushed
