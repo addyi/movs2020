@@ -56,7 +56,38 @@
 
 **Your research:**
 
-- YOUR NOTES
+#### What is GitFlow?
+- GitFlow ist eine Workflow nachdem mit Git in Teams gearbeitet werden kann
+- Es gibt (meist) 5 Arten von branches
+  - Master: hier liegt ein immer lauffähige Version
+  - Develop: hier wird vom Master gepulled und alle features reingepushed
+  - Feature: Für jedes Feature wird ein Branch aufgemacht, hier werden die Features entwickelt und in den Developer branch gepushed
+  - Release: Ein Release wird erstellt, sobald genug features auf dem Developer Branch gesammelt wurden
+  - Hotfix: falls ein schneller Hotfix gemacht werden muss, wird hier vom Master gebranched und in den developer und master gepushed
+
+#### What is GitHub Flow?  
+- "einfachere" Variante von GitFlow:
+ - Branch zum Master wird erzeugt, auf dem entwickelt wird
+ - Sobald eine Änderung fertig ist, wird ein Pull Request erzeugt
+ - über diesen kann nun in GitHub selbst diskutiert und ggf. Verbesserungen durchgeführt werden (CodeReview)
+ - Anschließend (wenn alle zufrieden) wird der Branch gemerged
+
+#### What is an Pull Request?
+- Ein Pull Request ist "die Bitte um Aufnahme von Änderungen" in einem Branch
+
+#### What is an Merge Request?
+- Das gleiche wir Pull Request bei GitHub in GitLab
+
+#### Why is that interesting for Git?
+##### GitFlow/GitHub Flow:
+  - "Struktur" in die Arbeit bringen / Zusammenarbeit erleichtern
+  - Master ist immer produktiv (und sauber)
+
+##### Pull Request / Merge Request:
+  - CodeReview
+  - Diskussion über Änderungen
+  - Verbessern von Änderungen
+
 
 **Possible resources:**
 
